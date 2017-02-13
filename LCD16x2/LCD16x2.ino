@@ -1,4 +1,4 @@
-// Thêm thư viện có sẵn LCD
+﻿// Thêm thư viện có sẵn LCD
 #include <LiquidCrystal.h>
  
 //Khởi tạo với các chân
@@ -15,5 +15,5 @@ void loop() {
   // đặt con trỏ vào cột 0, dòng 1
   lcd.setCursor(0, 1);
   // In ra dong chu Hello
-  lcd.print(" Hello hihi");
+  lcd.print(" Hello hihihehe");
 }
