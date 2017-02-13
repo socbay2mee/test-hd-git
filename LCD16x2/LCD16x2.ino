@@ -8,12 +8,12 @@ void setup() {
   //Khai báo LCD 16x2
   lcd.begin(16, 2);
   //In ra màn hình HocARM.org
-  lcd.print("HocARM.org!");
+  lcd.print("HocARM.org!!!!");
 }
  
 void loop() {
   // đặt con trỏ vào cột 0, dòng 1
   lcd.setCursor(0, 1);
   // In ra dong chu Hello
-  lcd.print(" Hello");
+  lcd.print(" Hello hihi");
 }
